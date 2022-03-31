@@ -18,4 +18,14 @@ const pasteSchema = new mongoose.Schema({
     },
 }, { timestamps: true });
 
+
+/*
+
+{
+    title = 'otsikko'
+    description = 'kuvaus'
+    body = ' tekstin sisältö'
+}
+
+*/
 export default mongoose.model("Paste", pasteSchema);
